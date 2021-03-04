@@ -1,0 +1,28 @@
+.nny {
+  background: linear-gradient(to right, #1e5799 0%, #f300ff 50%, #e0ff00 100%);
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+  height: 3px;
+  border-bottom: 1px solid #000;
+}
+
+#videoBg {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#pattern {
+  background-image: url('../img/dot.png');
+  background-repeat: repeat;
+}
+
+#circle {
+  background: #f00;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}

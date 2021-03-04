@@ -1,0 +1,31 @@
+.leftHandMovement {
+  position: absolute;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: leftHand;
+  -webkit-animation-duration: 0.7s;
+}
+
+.rightHandMovement {
+  position: absolute;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: rightHand;
+  -webkit-animation-duration: 0.7s;
+}
+
+@-webkit-keyframes leftHand {
+  0% {
+    left: 70%;
+  }
+  100% {
+    left: 80%;
+  }
+}
+
+@-webkit-keyframes rightHand {
+  0% {
+    right: 70%;
+  }
+  100% {
+    right: 80%;
+  }
+}
